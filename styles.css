@@ -1,8 +1,8 @@
 .nav-item {
   background-color: #01A3C9;
   text-align: center;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 .nav-item a{
   color: #f2f2f2;
@@ -25,7 +25,7 @@
 .nav-img{
   position: relative;
   left: calc((100% - 136px) / 2);
-  height: 38px;
+  height: auto;
   width: 136px;
 }
 .navbar-toggler-icon {
@@ -41,9 +41,10 @@
 }
 .banner{
  position: relative;
+ margin-top:4px;
 }
 .banner img{
-  height: 133px;
+  height: auto;
   width: 100%;
 }
 .banner-text{
@@ -53,22 +54,23 @@
 }
 #banner_top{
   color: #01A3C9;
-  font-size: 82%;
+  font-size: 4vw;
   font-weight: bold;
+  margin-bottom: 0px;
 }
 #banner_para{
-  font-size: 68%;
+  font-size: 3vw;
   margin-top: 5%;
   margin-bottom: 6px;
 }
 #banner_button{
   color: #f2f2f2;
-  font-size: 66%;
+  font-size: 2vw;
   font-weight: bold;
   background-color: #01A3C9;
   border: none;
-  height: 22px;
-  width: 70px;
+  height: 6vw;
+  width: 19vw;
 }
 .banner-description{
   text-align: center;
@@ -210,6 +212,8 @@
 .nav-img{
    left: 18px;
    top: 3px;
+   height: 39px;
+   width: auto;
  }
  #navbarMenu{
    position: unset;
@@ -233,6 +237,9 @@
    background-color: #000000;
    cursor: pointer;
  }
+ .banner{
+   margin-top: 0px;
+ }
  .banner img{
    height: auto;
 
@@ -253,6 +260,7 @@
 #banner_button{
   font-size: 78%;
   width: 80px;
+  height: 27px;
   font-weight: bold;
 }
 #banner_img{
