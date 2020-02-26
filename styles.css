@@ -90,6 +90,7 @@
   font-size: 12px;
   text-align: center;
   color: #181b1a;
+  font-family: 'Open Sans';
 }
 .banner-paragraph-1{
   display: none;
@@ -98,13 +99,14 @@
   font-size: 10px;
   font-weight: bold;
   text-align: right;
-  font-family: mono;
+  font-family: 'Dosis';
   font-weight: bold;
 }
 .description-paragraph{
   font-size: 12px;
   text-align: right;
   color: #545f5c;
+  font-family: 'Open Sans';
 }
 .description-shadow{
   background-color: #ffffff;
@@ -123,20 +125,24 @@
   font-size: 10px;
   font-weight: bold;
   text-align: left;
-  font-family: mono;
+  font-family: 'Dosis';
   font-weight: bold;
 }
 .description-paragraph-1{
   font-size: 12px;
   text-align: left;
   color: #545f5c;
+  font-family: 'Open Sans';
 }
 .about{
   background-color: #273236;
+  font-family: 'Open Sans';
 }
 .about-heading{
   color: #e2e6e9;
   font-size: 16px;
+  font-family: 'Dosis';
+  font-weight: bold;
 }
 .about-paragraph{
   color: #85938f;
@@ -197,6 +203,7 @@
 }
 #copyright_content{
   color: #85938f;
+  font-family: 'Open Sans';
 }
 #copyright_content_1{
   color: #01A3C9;
@@ -275,6 +282,7 @@
    font-size: 13px;
    text-align: center;
    color: #181b1a;
+   font-family: 'Open Sans';
    display: block;
  }
  .description-shadow{
