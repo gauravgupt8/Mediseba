@@ -40,12 +40,12 @@
   top: 54px;
 }
 .banner{
+ background-image: url("assets/banner.jpg");
  position: relative;
  margin-top:4px;
-}
-.banner img{
-  height: auto;
-  width: 100%;
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 140px;
 }
 .banner-text{
   position: absolute;
@@ -75,24 +75,24 @@
 .banner-description{
   text-align: center;
 }
-#banner_h1{
+#banner_description_heading{
   font-size: 20px;
   font-weight: bold;
   padding-top: 40px;
   margin-bottom: 0px;
 }
-#banner_img{
+#banner_description_img{
   position: relative;
   bottom: 14px;
   right: 7px;
 }
-.banner-paragraph{
+.banner-description-paragraph{
   font-size: 12px;
   text-align: center;
   color: #181b1a;
   font-family: 'Open Sans';
 }
-.banner-paragraph-1{
+.banner-description-paragraph-1{
   display: none;
 }
 .description-heading{
@@ -229,6 +229,11 @@
   padding-top: 10px;
   padding-bottom: 15px;
 }
+@media (min-width:576px){
+  .banner{
+   height: 200px;
+  }
+}
  @media (min-width:768px){
 .nav-img{
    left: 18px;
@@ -260,11 +265,7 @@
    cursor: pointer;
  }
  .banner{
-   margin-top: 0px;
- }
- .banner img{
-   height: auto;
-
+  height: 280px;
  }
  #banner_top{
    font-size: 31px;
@@ -285,15 +286,15 @@
   height: 27px;
   font-weight: bold;
 }
-#banner_img{
+#banner_description_img{
   position: relative;
   bottom: 3px;
   right: 3px;
 }
- .banner-paragraph{
+ .banner-description-paragraph{
    display: none;
  }
- .banner-paragraph-1{
+ .banner-description-paragraph-1{
    font-size: 13px;
    text-align: center;
    color: #181b1a;
@@ -301,13 +302,10 @@
    display: block;
  }
  .description-shadow{
-   background-color: #ffffff;
    height: 52px;
    width: 52px;
    padding: 11px;
-   border-radius: 50%;
-   box-shadow: 1px 1px 10px gray;
- }
+}
 .row-fix{
   padding-bottom: 10%;
 }
@@ -327,13 +325,16 @@
      padding-left: 45px;
      padding-right: 45px;
  }
+ .banner{
+  height: 377px;
+ }
  #banner_top {
      font-size: 41px;
  }
- #banner_h1{
+ #banner_description_heading{
    font-size: 30px;
  }
- .banner-paragraph-1 {
+ .banner-description-paragraph-1 {
      font-size: 17px;
  }
  #banner_button {
@@ -347,13 +348,9 @@
     margin-bottom: 24px;
 }
 .description-shadow{
-  background-color: #ffffff;
   height: 62px;
   width: 61px;
   padding: 15px;
-  border-radius: 50%;
-  box-shadow: 1px 1px 10px gray;
-  overflow: hidden;
 }
 
 .description-heading, .description-heading-1{
