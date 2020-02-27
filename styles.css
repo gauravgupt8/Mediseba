@@ -118,8 +118,10 @@
 }
 #doctor_image
 {
-  padding-left: 14%;
+  position: relative;
   height: 301px;
+  left: 50%;
+  transform: translate(-50%);
 }
 .description-heading-1{
   font-size: 10px;
@@ -133,6 +135,18 @@
   text-align: left;
   color: #545f5c;
   font-family: 'Open Sans';
+}
+.grid-align-1{
+  float: right;
+}
+.grid-align-2{
+  float: left;
+}
+.description-content{
+  padding-right: 14px !important;
+}
+.description-content-1{
+  padding-left: 14px !important;
 }
 .about{
   background-color: #273236;
@@ -300,7 +314,6 @@
     font-size: 9px;
 }
 #doctor_image{
-  padding-left:10px;
   height: 317px;
   object-fit: contain;
 }
@@ -338,6 +351,7 @@
   padding: 15px;
   border-radius: 50%;
   box-shadow: 1px 1px 10px gray;
+  overflow: hidden;
 }
 
 .description-heading, .description-heading-1{
@@ -347,7 +361,6 @@
     font-size: 13px;
 }
 #doctor_image {
-    padding-left: 14%;
     height: 395px;
 }
 .address-p, .address-p > a {
