@@ -95,14 +95,14 @@
 .banner-description-paragraph-1{
   display: none;
 }
-.description-heading{
+.grid-description-first h6{
   font-size: 10px;
   font-weight: bold;
   text-align: right;
   font-family: 'Dosis';
   font-weight: bold;
 }
-.description-paragraph{
+.grid-description-first p{
   font-size: 12px;
   text-align: right;
   color: #545f5c;
@@ -123,14 +123,14 @@
   left: 50%;
   transform: translate(-50%);
 }
-.description-heading-1{
+.grid-description h6{
   font-size: 10px;
   font-weight: bold;
   text-align: left;
   font-family: 'Dosis';
   font-weight: bold;
 }
-.description-paragraph-1{
+.grid-description p{
   font-size: 12px;
   text-align: left;
   color: #545f5c;
@@ -176,7 +176,7 @@
   color: #85938f;
   text-decoration: none;
 }
-.newsletter-input{
+.about-heading input{
   background-color: #273236;
   border-radius: 20px;
   width: 90%;
@@ -186,7 +186,7 @@
   color: #85938f;
   border-style: double;
 }
-.newsletter-button{
+.about-heading button{
   background-color: #01A3C9;
   border-radius: 20px;
   width: 90%;
@@ -209,7 +209,7 @@
   font-size: 10px;
   text-align: center;
 }
-.footer-menu{
+.footer-links a{
   padding: 5px;
   color: #85938f;
 }
@@ -309,7 +309,7 @@
 .row-fix{
   padding-bottom: 10%;
 }
-.description-paragraph, .description-paragraph-1 {
+.grid-description-first p, .grid-description p {
     font-size: 9px;
 }
 #doctor_image{
@@ -354,10 +354,10 @@
   padding: 15px;
 }
 
-.description-heading, .description-heading-1{
+.grid-description-first h6, .grid-description h6{
     font-size: 13px;
 }
-.description-paragraph, .description-paragraph-1 {
+.grid-description-first p, .grid-description p {
     font-size: 13px;
 }
 #doctor_image {
