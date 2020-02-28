@@ -167,6 +167,7 @@
 .about-heading img{
   height: 16px;
   padding-left: 17px;
+  padding-right: 15px;
 }
 .about-heading p, .about-heading p>a{
   color: #85938f;
