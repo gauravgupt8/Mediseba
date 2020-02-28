@@ -75,13 +75,13 @@
 .banner-description{
   text-align: center;
 }
-#banner_description_heading{
+.banner-description h1{
   font-size: 20px;
   font-weight: bold;
   padding-top: 40px;
   margin-bottom: 0px;
 }
-#banner_description_img{
+.banner-description img{
   position: relative;
   bottom: 14px;
   right: 7px;
@@ -152,21 +152,23 @@
   background-color: #273236;
   font-family: 'Open Sans';
 }
-.about-heading{
+.about-heading h3{
   color: #e2e6e9;
   font-size: 16px;
   font-family: 'Dosis';
   font-weight: bold;
+  margin-bottom: 5%;
 }
-.about-paragraph{
+#find_us_paragraph{
   color: #85938f;
   font-size: 12px;
+  margin-right: 10%;
 }
-.address-img{
+.about-heading img{
   height: 16px;
   padding-left: 17px;
 }
-.address-p, .address-p>a{
+.about-heading p, .about-heading p>a{
   color: #85938f;
   font-size: 10px;
 }
@@ -214,18 +216,16 @@
 .copyright{
   text-align: center;
   font-size: 10px;
-}
-#copyright_content{
   color: #85938f;
   font-family: 'Open Sans';
 }
-#copyright_content_1{
+#copyright_content{
   color: #01A3C9;
 }
 .footer-social-media{
   text-align: center;
 }
-.footer-social-media-image{
+.footer-social-media img{
   padding-top: 10px;
   padding-bottom: 15px;
 }
@@ -286,7 +286,7 @@
   height: 27px;
   font-weight: bold;
 }
-#banner_description_img{
+.banner-description img{
   position: relative;
   bottom: 3px;
   right: 3px;
@@ -316,8 +316,9 @@
   height: 317px;
   object-fit: contain;
 }
-.about-paragraph {
-  font-size: 11px;
+#find_us_paragraph {
+  font-size: 10px;
+  margin-right: 0px;
 }
  }
  @media (min-width:1024px){
@@ -331,7 +332,7 @@
  #banner_top {
      font-size: 41px;
  }
- #banner_description_heading{
+ .banner-description h1{
    font-size: 30px;
  }
  .banner-description-paragraph-1 {
@@ -362,10 +363,10 @@
 #doctor_image {
     height: 370px;
 }
-.address-p, .address-p > a {
+.about-heading p, .about-heading p > a {
   font-size: 12px;
 }
-.about-paragraph {
+#find_us_paragraph {
   font-size: 14px;
 }
 }
