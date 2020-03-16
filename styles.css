@@ -1,3 +1,12 @@
+.row{
+  padding:0;
+  margin:0 !important;
+}
+
+.my-container {
+  padding:0 !important;
+
+}
 .nav-item {
   background-color: #01A3C9;
   text-align: center;
@@ -45,32 +54,32 @@
  /* margin-top:4px; */
  background-repeat: no-repeat;
  background-size: cover;
- height: 140px;
+ height: 127px;
 }
 .banner-text{
   position: absolute;
-  top:16%;
-  left:50%;
+  top:15%;
+  left:49%;
 }
 #banner_top{
   color: #01A3C9;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
   margin-bottom: 0px;
 }
 #banner_para{
-  font-size: 15px;
+  font-size: 13px;
   margin-top: 5%;
   margin-bottom: 12px;
 }
 #banner_button{
   color: #f2f2f2;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: bold;
   background-color: #01A3C9;
   border: none;
-  height: 27px;
-  width: 88px;
+  height: 24px;
+  width: 81px;
 }
 .banner-description{
   text-align: center;
@@ -103,16 +112,16 @@
   font-family: 'Dosis';
 }
 .grid-description-first p{
-  font-size: 12px;
+  font-size: 14px;
   text-align: right;
   color: #545f5c;
   font-family: 'Open Sans';
 }
 .description-shadow{
   background-color: #ffffff;
-  height: 62px;
-  width: 61px;
-  padding: 15px;
+  height: 70px;
+  width: 70px;
+  padding: 18px;
   border-radius: 50%;
   box-shadow: 0px 0px 1px gray;
 }
@@ -130,7 +139,7 @@
   font-weight: 500;
 }
 .grid-description p{
-  font-size: 12px;
+  font-size: 14px;
   text-align: left;
   color: #545f5c;
   font-family: 'Open Sans';
@@ -142,10 +151,10 @@
   float: left;
 }
 .description-content{
-  padding-right: 14px !important;
+  padding-right: 31px !important;
 }
 .description-content-1{
-  padding-left: 14px !important;
+  padding-left: 31px !important;
 }
 .about{
   background-color: #273236;
@@ -165,7 +174,6 @@
 }
 .about-heading img{
   height: 16px;
-  padding-left: 17px;
   padding-right: 15px;
 }
 .about-heading p, .about-heading p>a{
@@ -211,12 +219,12 @@
 }
 .footer-links a{
   padding: 5px;
-  color: #85938f;
+  color: #6c7a75;
 }
 .copyright{
   text-align: center;
   font-size: 10px;
-  color: #85938f;
+  color: #606c68;
   font-family: 'Open Sans';
 }
 #copyright_content{
@@ -326,7 +334,7 @@
   margin-right: 0px;
 }
  }
- @media (min-width:1024px){
+ @media (min-width:992px){
  .nav-item{
      padding-left: 45px;
      padding-right: 45px;
@@ -364,7 +372,7 @@
 }
 
 .grid-description-first p, .grid-description p {
-    font-size: 13px;
+    font-size: 12px;
 }
 #doctor_image {
     height: 370px;
