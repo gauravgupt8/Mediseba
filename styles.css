@@ -42,7 +42,7 @@
 .banner{
  background-image: url("assets/banner.jpg");
  position: relative;
- margin-top:4px;
+ /* margin-top:4px; */
  background-repeat: no-repeat;
  background-size: cover;
  height: 140px;
@@ -54,23 +54,23 @@
 }
 #banner_top{
   color: #01A3C9;
-  font-size: 4vw;
+  font-size: 18px;
   font-weight: bold;
   margin-bottom: 0px;
 }
 #banner_para{
-  font-size: 3vw;
+  font-size: 15px;
   margin-top: 5%;
-  margin-bottom: 6px;
+  margin-bottom: 12px;
 }
 #banner_button{
   color: #f2f2f2;
-  font-size: 2vw;
+  font-size: 13px;
   font-weight: bold;
   background-color: #01A3C9;
   border: none;
-  height: 6vw;
-  width: 19vw;
+  height: 27px;
+  width: 88px;
 }
 .banner-description{
   text-align: center;
@@ -88,6 +88,7 @@
 }
 .banner-description-paragraph{
   font-size: 12px;
+  line-height: 27px;
   text-align: center;
   color: #181b1a;
   font-family: 'Open Sans';
@@ -96,11 +97,10 @@
   display: none;
 }
 .grid-description-first h6{
-  font-size: 10px;
-  font-weight: bold;
+  font-size: 20px;
+  font-weight: 500;
   text-align: right;
   font-family: 'Dosis';
-  font-weight: bold;
 }
 .grid-description-first p{
   font-size: 12px;
@@ -114,7 +114,7 @@
   width: 61px;
   padding: 15px;
   border-radius: 50%;
-  box-shadow: 1px 1px 10px gray;
+  box-shadow: 0px 0px 1px gray;
 }
 #doctor_image
 {
@@ -124,11 +124,10 @@
   transform: translate(-50%);
 }
 .grid-description h6{
-  font-size: 10px;
-  font-weight: bold;
+  font-size: 20px;
   text-align: left;
   font-family: 'Dosis';
-  font-weight: bold;
+  font-weight: 500;
 }
 .grid-description p{
   font-size: 12px;
@@ -297,6 +296,7 @@
  }
  .banner-description-paragraph-1{
    font-size: 13px;
+   line-height: 30px;
    text-align: center;
    color: #181b1a;
    font-family: 'Open Sans';
@@ -309,6 +309,10 @@
 }
 .row-fix{
   padding-bottom: 10%;
+}
+.grid-description-first h6, .grid-description h6{
+  font-size: 12px;
+  font-weight: 600;
 }
 .grid-description-first p, .grid-description p {
     font-size: 9px;
@@ -338,6 +342,7 @@
  }
  .banner-description-paragraph-1 {
      font-size: 17px;
+     line-height: 42px;
  }
  #banner_button {
      height: 35px;
@@ -354,10 +359,10 @@
   width: 61px;
   padding: 15px;
 }
-
 .grid-description-first h6, .grid-description h6{
-    font-size: 13px;
+  font-size: 16px;
 }
+
 .grid-description-first p, .grid-description p {
     font-size: 13px;
 }
