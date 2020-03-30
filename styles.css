@@ -52,7 +52,6 @@
 .banner{
  background-image: url("assets/banner.jpg");
  position: relative;
- /* margin-top:4px; */
  background-repeat: no-repeat;
  background-size: cover;
  height: 127px;
@@ -69,9 +68,11 @@
   margin-bottom: 0px;
 }
 #banner_para{
-  font-size: 13px;
+  font-size: 12px;
   margin-top: 5%;
   margin-bottom: 12px;
+  font-family: 'Open Sans';
+  font-weight: 300;
 }
 #banner_button{
   color: #f2f2f2;
@@ -107,8 +108,8 @@
   display: none;
 }
 .grid-description-first h6{
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 17px;
+  font-weight: 600;
   text-align: right;
   font-family: 'Dosis';
 }
@@ -124,7 +125,7 @@
   width: 70px;
   padding: 18px;
   border-radius: 50%;
-  box-shadow: 0px 0px 2px gray;
+  box-shadow: 0px 0px 0.5px gray;
 
 }
 #doctor_image
@@ -135,10 +136,10 @@
   transform: translate(-50%);
 }
 .grid-description h6{
-  font-size: 18px;
+  font-size: 17px;
   text-align: left;
   font-family: 'Dosis';
-  font-weight: 500;
+  font-weight: 600;
 }
 .grid-description p{
   font-size: 14px;
@@ -162,7 +163,7 @@
   background-color: #273236;
   font-family: 'Open Sans';
 }
-hr{
+#border_line{
   margin-top: 0px !important;
   margin-bottom: 0px !important;
   background-color: #48514f;
@@ -202,6 +203,7 @@ hr{
   margin-bottom: 18px;
   border-color:#5C6764;
   color: #85938f;
+  font-size: 10px;
   border-style: double;
 }
 .about-heading button{
@@ -213,6 +215,9 @@ hr{
   border-color: #01A3C9;
   color: #f2f2f2;
   border-style: double;
+  font-weight: bolder;
+  font-size: 13px;
+  font-family: 'Open Sans';
 }
 .footer-line{
   height:1px;
@@ -220,11 +225,12 @@ hr{
 }
 .footer-content{
   background-color: #273236;
+  text-align: center;
+  padding-top: 45px;
+  font-size: 10px;
 }
 .footer-links{
-  padding-top: 45px;
-  padding-bottom: 10px;
-  font-size: 10px;
+
   text-align: center;
 }
 .footer-links a{
@@ -236,6 +242,7 @@ hr{
   font-size: 10px;
   color: #606c68;
   font-family: 'Open Sans';
+  padding-top: 10px;
 }
 #copyright_content{
   color: #01A3C9;
@@ -344,7 +351,7 @@ hr{
   font-size: 10px;
   margin-right: 0px;
 }
-hr{
+#border_line{
   margin-top: 0px !important;
   margin-bottom: 0px !important;
   background-color: #48514f;
