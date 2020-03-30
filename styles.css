@@ -164,10 +164,7 @@
   font-family: 'Open Sans';
 }
 #border_line{
-  margin-top: 0px !important;
-  margin-bottom: 0px !important;
-  background-color: #48514f;
-  height: 1px !important;
+  border-top: 1px solid #48514f;
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -219,12 +216,10 @@
   font-size: 13px;
   font-family: 'Open Sans';
 }
-.footer-line{
-  height:1px;
-  border:1px solid #48514f;
+#background{
+  background-color: #273236;
 }
 .footer-content{
-  background-color: #273236;
   text-align: center;
   padding-top: 45px;
   font-size: 10px;
@@ -352,10 +347,6 @@
   margin-right: 0px;
 }
 #border_line{
-  margin-top: 0px !important;
-  margin-bottom: 0px !important;
-  background-color: #48514f;
-  height: 1px !important;
   margin-left: 2%;
   margin-right: 5%;
 }
